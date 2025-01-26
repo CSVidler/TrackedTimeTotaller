@@ -16,7 +16,7 @@ There are much likely easier ways to implement this program, e.g. involving pack
 
 ## To Modify The Program
 
-The program can be modified as desired to accept a string in a different format. For example, if the times were tracked without the date in each case and the strings were simply logged in the format "hh:mm-hh:mm", the following changes would need to be made:\
+The program can be modified as desired to accept a string in a different format. For example, if the times were tracked without the date in each case and the strings were simply logged in the format "hh:mm-hh:mm", the following changes would need to be made:
 1. Change the raw string for the regex pattern in line 28 from r'^\d{2}\/\d{2}\s\d{2}:\d{2}-\d{2}:\d{2}$' to r'^\d{2}:\d{2}-\d{2}:\d{2}$'
 2. Subtract 6 from all the slice values in lines 37-40 (i.e. start_hour = int(s[0:2]) start_min = int(s[3:5]) end_hour = int(s[6:8]) end_min = int(s[9:11]))
 3. Ideally, also change the prompted format in the printed instruction string in line 52 to 'hh:mm-hh:mm'
