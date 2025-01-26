@@ -12,7 +12,7 @@ To make these easier to add up, I've created this fairly rudimentary program, wh
 \
 Entering "R" for the input will reset the hours and minutes counters back to zero; entering "X" will exit the program. (Both these inputs are case-insensitive.) If neither of these inputs are entered and the input string does not match the format specified above, an error message will be shown and the user will be prompted to enter a new input.\
 \
-There are much likely easier ways to implement this program, e.g. involving packages specially designed for working with time - but this is just a functional solution I've come up with for the time being. I've also used it as an opportunity to revise writing code in Python, using regex, string manipulation, mathematical problem solving etc.
+There are much likely easier ways to implement this program, e.g. involving packages specially designed for working with time - but this is just a functional solution I've come up with for the time being. I've also used it as an opportunity to revise writing code in Python, using regex, string manipulation, mathematical problem solving, etc.
 
 ## To Modify The Program
 
